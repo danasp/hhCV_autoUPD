@@ -1,3 +1,5 @@
+package vereshchakov.main;
+
 import javax.net.ssl.HostnameVerifier;
 import javax.net.ssl.SSLSession;
 

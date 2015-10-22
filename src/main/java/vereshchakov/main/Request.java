@@ -1,5 +1,7 @@
+package vereshchakov.main;
+
 import javax.net.ssl.HttpsURLConnection;
-import java.io.*;
+import java.io.IOException;
 import java.net.URL;
 
 /**

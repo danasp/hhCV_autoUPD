@@ -1,3 +1,5 @@
+package vereshchakov.main;
+
 import java.io.*;
 
 /**
