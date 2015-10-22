@@ -24,7 +24,7 @@ public class Config {
         String resume = "";
         int period = 0;
         try {
-            BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream("./src/main/resources/config.txt"), "UTF8"));
+            BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream("./config.txt"), "UTF8"));
             token = reader.readLine().split(":")[1];
             resume = reader.readLine().split(":")[1];
             period = Integer.parseInt(reader.readLine().split(":")[1]);
