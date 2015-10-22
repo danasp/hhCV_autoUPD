@@ -1,2 +1,2 @@
 # hhCV_autoUPD
-Auto updater CV on hh.ru
+Программа для автообновления даты публикации резюме на сайте hh.ru.
