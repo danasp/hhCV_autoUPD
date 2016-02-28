@@ -25,7 +25,6 @@ public class Request {
             connection.setUseCaches(true);
             connection.setRequestProperty("User-Agent", "cv_autoUPD/1.0 (dvereschakov@mail.ru)");
             connection.setRequestProperty("Authorization", "Bearer " + config.getAccess_token());
-            connection.setHostnameVerifier(new DummyHostnameVerifier());
 
             int responseCode = connection.getResponseCode();
             if (responseCode == 204) {
