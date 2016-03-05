@@ -5,7 +5,7 @@ import java.io.IOException;
 /**
  * Created by Danila on 22.10.15.
  */
-public class Main {
+public class Updater {
     public static void main(String[] args) {
 
         boolean running = true;

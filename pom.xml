@@ -28,7 +28,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib</classpathPrefix>
-                            <mainClass>vereshchakov.main.Main</mainClass>
+                            <mainClass>vereshchakov.main.Updater</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
